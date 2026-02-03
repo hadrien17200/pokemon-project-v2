@@ -8,7 +8,7 @@ function App() {
     <>
       <h1>
         <Link to="/">
-          <img src="/pokemon_logo.png" alt="Pokémon" />
+          <img src="/pokemon_logo.png" alt="Pokemon" />
         </Link>
       </h1>
 

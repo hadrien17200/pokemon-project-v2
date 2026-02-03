@@ -103,8 +103,8 @@ export default function CardPokemon({ pokemon, index, pokedex, setPokedex }) {
             <ul>
               <li>PV : {pokemon.stats.HP}</li>
               <li>Attaque : {pokemon.stats.attack}</li>
-              <li>Defense : {pokemon.stats.defense}</li>
-              <li>Attaque speciale : {pokemon.stats.special_attack}</li>
+              <li>Défense : {pokemon.stats.defense}</li>
+              <li>Attaque spéciale : {pokemon.stats.special_attack}</li>
               <li>Vitesse : {pokemon.stats.speed}</li>
             </ul>
           </figcaption>

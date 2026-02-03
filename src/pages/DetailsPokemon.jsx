@@ -22,12 +22,8 @@ export default function DetailsPokemon() {
 
         const response = await fetch(
           `https://pokebuildapi.fr/api/v1/pokemon/${idPokemon}`,
-          { signal: controller.signal }
+       
         );
-
-        if (!response.ok) {
-          throw new Error(`Erreur API: ${response.status}`);
-        }
 
         const data = await response.json();
 
