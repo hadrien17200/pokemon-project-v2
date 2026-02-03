@@ -5,7 +5,8 @@ function Footer() {
   return (
     <footer>
       <Link to="/MentionLegales">Mentions légales</Link>
-      <Link to="/DetailsPokemon">Details Pokemon</Link>
+      {" | "}
+      <Link to="/DetailsPokemon">Détails Pokemon</Link>
     </footer>
   );
 }
