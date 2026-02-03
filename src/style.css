@@ -1,0 +1,31 @@
+:root {
+  --green: rgba(61, 122, 107, 1);
+}
+body {
+  background-color: #414141;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+p.post-container {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
